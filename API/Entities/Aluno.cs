@@ -32,6 +32,8 @@ namespace CTRottweiler.Entities
         public DateTime CriadoEm { get; set; }
 
 
-        public ICollection<Turma> Turmas { get; set; }
+
+
+
     }
 }
