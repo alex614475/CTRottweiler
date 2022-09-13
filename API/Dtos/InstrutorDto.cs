@@ -16,9 +16,7 @@ namespace CTRottweiler.Dtos
 
         public string Observacao { get; set; }
 
-        public int? AtividadeId { get; set; }
-
-       // public ICollection<AtividadeDto> Atividades { get; set; }
+    
 
     }
 }

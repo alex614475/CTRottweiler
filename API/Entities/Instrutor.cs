@@ -14,8 +14,6 @@
 
         public string Observacao { get; set; }
 
-        public int? AtividadeId { get; set; }
-
         public ICollection<Atividade> Atividades  { get; set; }
 
 

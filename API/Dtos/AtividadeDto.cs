@@ -1,16 +1,20 @@
 ﻿using CTRottweiler.Entities;
 
-namespace CTRottweiler.Entities
+namespace CTRottweiler.Dtos
 {
-    public class Atividade : Entity
+    public class AtividadeDto
     {
         public string Descricao { get; set; }
 
         public decimal Mensalidade { get; set; }
 
 
-        public ICollection<Instrutor> Instrutors { get; set; }
+        public string DescricaoNome { get; set; }
+
+     
 
 
     }
+
+
 }

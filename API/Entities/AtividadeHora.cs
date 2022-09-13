@@ -12,8 +12,6 @@ namespace CTRottweiler.Entities
         public DateTime HorarioInicial { get; set; }
 
         public DateTime HorarioFinal { get; set; }
-
-        public int AtividadeId { get; set; }    
  
         public Atividade Atividade { get; set; }    
 
